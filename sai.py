@@ -31,7 +31,13 @@ def parse_time(time_str):
 # Function to send a notification
 def send_notification(title, message):
     pb.push_note(title, message)
-    print(f"Notification sent: {title}")
+    log_message(f"Notification sent: {title}")
+
+# Function to write logs to log.txt
+def log_message(message):
+    with open('log.txt', 'a') as log_file:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        log_file.write(f"[{timestamp}] {message}\n")
 
 # Check the timetable and send notifications
 now = datetime.now()
@@ -48,7 +54,7 @@ for entry in data:
     
     # Skip the SMS notification if the course field is null or empty
     if not course_code:
-        print(f"Skipping entry: {entry['timeSlot']} due to missing course.")
+        log_message(f"Skipping entry: {entry['timeSlot']} due to missing course.")
         continue
 
     course_name = course_mapping.get(course_code, "No Course")  # Defaults to "No Course" if no match
