@@ -11,21 +11,17 @@ if not api_key:
 pb = Pushbullet(api_key)
 
 # Load the timetable data from a JSON file
-# with open('tt.json', 'r') as file:
-#     data = json.load(file)
-try:
-    with open('tt.json', 'r') as file:
-        data = json.load(file)
-except json.JSONDecodeError as e:
-    print(f"JSON decoding error: {e}")
+with open('tt.json', 'r') as file:
+    data = json.load(file)
 
 # Mapping course codes to course names
 course_mapping = {
     "22PH4102": "Applied Physics",
-    "22CS2228F": "Cross Platform",
-    "22CEC3101A": "CIS Advanced",
-    "22CEC3204": "Cloud DevOps",
-    "22SDCS03A": "JFSD Advanced",
+    "22CS2228F": "Cross PlatForm",
+    "22CEC3101A": "CIS advanced",
+    "22CEC3204": "Cloud Devops",
+    "22SDCS03A": "JFSD advanced",
+    # Add more mappings as needed
 }
 
 # Function to parse the time from the JSON format
@@ -37,11 +33,10 @@ def send_notification(title, message):
     pb.push_note(title, message)
     print(f"Notification sent: {title}")
 
-# Get the current time and day
+# Check the timetable and send notifications
 now = datetime.now()
 current_day = now.strftime("%A").upper()
 
-# Check the timetable and send notifications
 for entry in data:
     class_day = entry['day']
     class_start_time = parse_time(entry['startTime'])
@@ -50,6 +45,12 @@ for entry in data:
 
     # Get the course name based on the course code
     course_code = entry['course']
+    
+    # Skip the SMS notification if the course field is null or empty
+    if not course_code:
+        print(f"Skipping entry: {entry['timeSlot']} due to missing course.")
+        continue
+
     course_name = course_mapping.get(course_code, "No Course")  # Defaults to "No Course" if no match
 
     # Send upcoming class notification 5 minutes before class starts
