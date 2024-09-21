@@ -11,7 +11,7 @@ if not api_key:
 pb = Pushbullet(api_key)
 
 # Load the timetable data from a JSON file
-with open('timetable.json', 'r') as file:
+with open('tt.json', 'r') as file:
     data = json.load(file)
 
 # Mapping course codes to course names
