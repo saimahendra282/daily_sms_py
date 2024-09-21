@@ -11,8 +11,13 @@ if not api_key:
 pb = Pushbullet(api_key)
 
 # Load the timetable data from a JSON file
-with open('tt.json', 'r') as file:
-    data = json.load(file)
+# with open('tt.json', 'r') as file:
+#     data = json.load(file)
+try:
+    with open('tt.json', 'r') as file:
+        data = json.load(file)
+except json.JSONDecodeError as e:
+    print(f"JSON decoding error: {e}")
 
 # Mapping course codes to course names
 course_mapping = {
@@ -21,7 +26,6 @@ course_mapping = {
     "22CEC3101A": "CIS Advanced",
     "22CEC3204": "Cloud DevOps",
     "22SDCS03A": "JFSD Advanced",
-    # Add more mappings as needed
 }
 
 # Function to parse the time from the JSON format
