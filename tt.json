@@ -1,1 +1,599 @@
+ [
 
+    {
+        "timeSlot": "7:10 AM - 8:00 AM",
+        "day": "MONDAY",
+        "startTime": "7:10 AM",
+        "endTime": "8:00 AM",
+        "room": "Null",
+        "course": "Null",
+        "mode": ""
+    },
+    {
+        "timeSlot": "8:00 AM - 8:50 AM",
+        "day": "MONDAY",
+        "startTime": "8:00 AM",
+        "endTime": "8:50 AM",
+        "room": "Null",
+        "course": "Null",
+        "mode": ""
+    },
+    {
+        "timeSlot": "9:20 AM - 10:10 AM",
+        "day": "MONDAY",
+        "startTime": "9:20 AM",
+        "endTime": "10:10 AM",
+        "room": "L312",
+        "course": "22PH4102",
+        "mode": "L"
+    },
+    {
+        "timeSlot": "10:10 AM - 11:00 AM",
+        "day": "MONDAY",
+        "startTime": "10:10 AM",
+        "endTime": "11:00 AM",
+        "room": "L312",
+        "course": "22PH4102",
+        "mode": "L" 
+    },
+    {
+        "timeSlot": "11:10 AM - 12:00 PM",
+        "day": "MONDAY",
+        "startTime": "11:10 AM",
+        "endTime": "12:00 PM",
+        "room": "F201",
+        "course": "22PH4102",
+        "mode": "P" 
+    },
+    {
+        "timeSlot": "12:00 PM - 12:50 PM",
+        "day": "MONDAY",
+        "startTime": "12:00 PM",
+        "endTime": "12:50 PM",
+        "room": "F201",
+        "course": "22PH4102",
+        "mode": "P"
+    },
+    {
+        "timeSlot": "12:51 PM - 1:45 PM",
+        "day": "MONDAY",
+        "startTime": "12:51 PM",
+        "endTime": "1:45 PM",
+        "room": "NULL",
+        "course": "NULL",
+        "mode": ""
+    },
+    {
+        "timeSlot": "1:45 PM - 2:35 PM",
+        "day": "MONDAY",
+        "startTime": "1:45 PM",
+        "endTime": "2:35 PM",
+        "room": "NULL",
+        "course": "NULL",
+        "mode": ""
+    },
+    {
+        "timeSlot": "2:35 PM - 3:30 PM",
+        "day": "MONDAY",
+        "startTime": "2:35 PM",
+        "endTime": "3:30 PM",
+        "room": "L-311",
+        "course": "22SDCS03A",
+        "mode": "L"
+    },
+    {
+        "timeSlot": "3:40 PM - 4:30 PM",
+        "day": "MONDAY",
+        "startTime": "3:40 PM",
+        "endTime": "4:30 PM",
+        "room": "NULL",
+        "course": "NULL",
+        "mode": "" 
+    },
+    {
+        "timeSlot": "4:30 PM - 5:20 PM",
+        "day": "MONDAY",
+        "startTime": "4:30 PM",
+        "endTime": "5:20 PM",
+        "room": "NULL",
+        "course": "NULL",
+        "mode": "" 
+    },
+   
+   {
+    "timeSlot": "7:10 AM - 8:00 AM",
+    "day": "TUESDAY",
+    "startTime": "7:10 AM",
+    "endTime": "8:00 AM",
+    "room": "C007",
+    "course": "22CS2228F",
+    "mode": "L" 
+  },
+  {
+    "timeSlot": "8:00 AM - 8:50 AM",
+    "day": "TUESDAY",
+    "startTime": "8:00 AM",
+    "endTime": "8:50 AM",
+    "room": "C007",
+    "course": "22CS2228F",
+    "mode": "L" 
+  },
+  {
+    "timeSlot": "9:20 AM - 10:10 AM",
+    "day": "TUESDAY",
+    "startTime": "9:20 AM",
+    "endTime": "10:10 AM",
+    "room": "C521B2",
+    "course": "22CEC3101A",
+    "mode": "S" 
+  },
+  {
+    "timeSlot": "10:10 AM - 11:00 AM",
+    "day": "TUESDAY",
+    "startTime": "10:10 AM",
+    "endTime": "11:00 AM",
+    "room": "C521B2",
+    "course": "22CEC3101A",
+    "mode": "S" 
+  },
+  {
+    "timeSlot": "11:10 AM - 12:00 PM",
+    "day": "TUESDAY",
+    "startTime": "11:10 AM",
+    "endTime": "12:00 PM",
+    "room": "C324B",
+    "course": "22CEC3204",
+    "mode": "P" 
+  },
+  {
+    "timeSlot": "12:00 PM - 12:50 PM",
+    "day": "TUESDAY",
+    "startTime": "12:00 PM",
+    "endTime": "12:50 PM",
+    "room": "C324B",
+    "course": "22CEC3204",
+    "mode": "P" 
+  },
+  {
+    "timeSlot": "12:51 PM - 1:45 PM",
+    "day": "TUESDAY",
+    "startTime": "12:51 PM",
+    "endTime": "1:45 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "1:45 PM - 2:35 PM",
+    "day": "TUESDAY",
+    "startTime": "1:45 PM",
+    "endTime": "2:35 PM",
+    "room": "L-311",
+    "course": "22SDCS03A",
+    "mode": "S" 
+  },
+  {
+    "timeSlot": "2:35 PM - 3:30 PM",
+    "day": "TUESDAY",
+    "startTime": "2:35 PM",
+    "endTime": "3:30 PM",
+    "room": "L-311",
+    "course": "22SDCS03A",
+    "mode": "S"
+  },
+  {
+    "timeSlot": "3:40 PM - 4:30 PM",
+    "day": "TUESDAY",
+    "startTime": "3:40 PM",
+    "endTime": "4:30 PM",
+    "room": "C217",
+    "course": "22CEC3101A",
+    "mode": "P" 
+  },
+  {
+    "timeSlot": "4:30 PM - 5:20 PM",
+    "day": "TUESDAY",
+    "startTime": "4:30 PM",
+    "endTime": "5:20 PM",
+    "room": "C217",
+    "course": "22CEC3101A",
+    "mode": "P" 
+  },
+     {
+    "timeSlot": "7:10 AM - 8:00 AM",
+    "day": "WEDNESDAY",
+    "startTime": "7:10 AM",
+    "endTime": "8:00 AM",
+    "room": "C423",
+    "course": "22CS2228F",
+    "mode": "P"
+  },
+  {
+    "timeSlot": "8:00 AM - 8:50 AM",
+    "day": "WEDNESDAY",
+    "startTime": "8:00 AM",
+    "endTime": "8:50 AM",
+    "room": "C423",
+    "course": "22CS2228F",
+    "mode": "P"
+  },
+  {
+    "timeSlot": "9:20 AM - 10:10 AM",
+    "day": "WEDNESDAY",
+    "startTime": "9:20 AM",
+    "endTime": "10:10 AM",
+    "room": "C321B2",
+    "course": "22CEC3101A",
+    "mode": "S"
+  },
+  {
+    "timeSlot": "10:10 AM - 11:00 AM",
+    "day": "WEDNESDAY",
+    "startTime": "10:10 AM",
+    "endTime": "11:00 AM",
+    "room": "C321B2",
+    "course": "22CEC3101A",
+    "mode": "S"
+  },
+  {
+    "timeSlot": "11:10 AM - 12:00 PM",
+    "day": "WEDNESDAY",
+    "startTime": "11:10 AM",
+    "endTime": "12:00 PM",
+    "room": "M206",
+    "course": "22SDCS03A",
+    "mode": "S"
+  },
+  {
+    "timeSlot": "12:00 PM - 12:50 PM",
+    "day": "WEDNESDAY",
+    "startTime": "12:00 PM",
+    "endTime": "12:50 PM",
+    "room": "M206",
+    "course": "22SDCS03A",
+    "mode": "S"
+  },
+  {
+    "timeSlot": "12:51 PM - 1:45 PM",
+    "day": "WEDNESDAY",
+    "startTime": "12:51 PM",
+    "endTime": "1:45 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": ""
+  },
+  {
+    "timeSlot": "1:45 PM - 2:35 PM",
+    "day": "WEDNESDAY",
+    "startTime": "1:45 PM",
+    "endTime": "2:35 PM",
+    "room": "C007",
+    "course": "22CEC3101A",
+    "mode": "L"
+  },
+  {
+    "timeSlot": "2:35 PM - 3:30 PM",
+    "day": "WEDNESDAY",
+    "startTime": "2:35 PM",
+    "endTime": "3:30 PM",
+    "room": "C007",
+    "course": "22CEC3101A",
+    "mode": "L"
+  },
+  {
+    "timeSlot": "3:40 PM - 4:30 PM",
+    "day": "WEDNESDAY",
+    "startTime": "3:40 PM",
+    "endTime": "4:30 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": ""
+  },
+  {
+    "timeSlot": "4:30 PM - 5:20 PM",
+    "day": "WEDNESDAY",
+    "startTime": "4:30 PM",
+    "endTime": "5:20 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": ""
+  },
+   {
+    "timeSlot": "7:10 AM - 8:00 AM",
+    "day": "THURSDAY",
+    "startTime": "7:10 AM",
+    "endTime": "8:00 AM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "8:00 AM - 8:50 AM",
+    "day": "THURSDAY",
+    "startTime": "8:00 AM",
+    "endTime": "8:50 AM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "9:20 AM - 10:10 AM",
+    "day": "THURSDAY",
+    "startTime": "9:20 AM",
+    "endTime": "10:10 AM",
+    "room": "M302",
+    "course": "22CEC3204",
+    "mode": "L" 
+  },
+  {
+    "timeSlot": "10:10 AM - 11:00 AM",
+    "day": "THURSDAY",
+    "startTime": "10:10 AM",
+    "endTime": "11:00 AM",
+    "room": "M302",
+    "course": "22CEC3204",
+    "mode": "L"
+  },
+  {
+    "timeSlot": "11:10 AM - 12:00 PM",
+    "day": "THURSDAY",
+    "startTime": "11:10 AM",
+    "endTime": "12:00 PM",
+    "room": "R206A",
+    "course": "22SDCS03A",
+    "mode": "P" 
+  },
+  {
+    "timeSlot": "12:00 PM - 12:50 PM",
+    "day": "THURSDAY",
+    "startTime": "12:00 PM",
+    "endTime": "12:50 PM",
+    "room": "R206A",
+    "course": "22SDCS03A",
+    "mode": "P" 
+  },
+  {
+    "timeSlot": "12:51 PM - 1:45 PM",
+    "day": "THURSDAY",
+    "startTime": "12:51 PM",
+    "endTime": "1:45 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "1:45 PM - 2:35 PM",
+    "day": "THURSDAY",
+    "startTime": "1:45 PM",
+    "endTime": "2:35 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": ""
+  },
+  {
+    "timeSlot": "2:35 PM - 3:30 PM",
+    "day": "THURSDAY",
+    "startTime": "2:35 PM",
+    "endTime": "3:30 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "3:40 PM - 4:30 PM",
+    "day": "THURSDAY",
+    "startTime": "3:40 PM",
+    "endTime": "4:30 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "4:30 PM - 5:20 PM",
+    "day": "THURSDAY",
+    "startTime": "4:30 PM",
+    "endTime": "5:20 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+ {
+    "timeSlot": "7:10 AM - 8:00 AM",
+    "day": "FRIDAY",
+    "startTime": "7:10 AM",
+    "endTime": "8:00 AM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "8:00 AM - 8:50 AM",
+    "day": "FRIDAY",
+    "startTime": "8:00 AM",
+    "endTime": "8:50 AM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "9:20 AM - 10:10 AM",
+    "day": "FRIDAY",
+    "startTime": "9:20 AM",
+    "endTime": "10:10 AM",
+    "room": "C225",
+    "course": "22UC3209",
+    "mode": "L" 
+  },
+  {
+    "timeSlot": "10:10 AM - 11:00 AM",
+    "day": "FRIDAY",
+    "startTime": "10:10 AM",
+    "endTime": "11:00 AM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "11:10 AM - 12:00 PM",
+    "day": "FRIDAY",
+    "startTime": "11:10 AM",
+    "endTime": "12:00 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "12:00 PM - 12:50 PM",
+    "day": "FRIDAY",
+    "startTime": "12:00 PM",
+    "endTime": "12:50 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "12:51 PM - 1:45 PM",
+    "day": "FRIDAY",
+    "startTime": "12:51 PM",
+    "endTime": "1:45 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "1:45 PM - 2:35 PM",
+    "day": "FRIDAY",
+    "startTime": "1:45 PM",
+    "endTime": "2:35 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "2:35 PM - 3:30 PM",
+    "day": "FRIDAY",
+    "startTime": "2:35 PM",
+    "endTime": "3:30 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": ""
+  },
+  {
+    "timeSlot": "3:40 PM - 4:30 PM",
+    "day": "FRIDAY",
+    "startTime": "3:40 PM",
+    "endTime": "4:30 PM",
+    "room": "Badminton", 
+    "course": "22UC3209",
+    "mode": "L" 
+  },
+  {
+    "timeSlot": "4:30 PM - 5:20 PM",
+    "day": "FRIDAY",
+    "startTime": "4:30 PM",
+    "endTime": "5:20 PM",
+    "room": "Badminton",
+    "course": "22UC3209",
+    "mode": "T" 
+  },
+
+  {
+    "timeSlot": "7:10 AM - 8:00 AM",
+    "day": "SATURDAY",
+    "startTime": "7:10 AM",
+    "endTime": "8:00 AM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "8:00 AM - 8:50 AM",
+    "day": "SATURDAY",
+    "startTime": "8:00 AM",
+    "endTime": "8:50 AM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "9:20 AM - 10:10 AM",
+    "day": "SATURDAY",
+    "startTime": "9:20 AM",
+    "endTime": "10:10 AM",
+    "room": "C225",
+    "course": "22UC3209",
+    "mode": "L" 
+  },
+  {
+    "timeSlot": "10:10 AM - 11:00 AM",
+    "day": "SATURDAY",
+    "startTime": "10:10 AM",
+    "endTime": "11:00 AM",
+    "room": "NULL", 
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "11:10 AM - 12:00 PM",
+    "day": "SATURDAY",
+    "startTime": "11:10 AM",
+    "endTime": "12:00 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "12:00 PM - 12:50 PM",
+    "day": "SATURDAY",
+    "startTime": "12:00 PM",
+    "endTime": "12:50 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "12:51 PM - 1:45 PM",
+    "day": "SATURDAY",
+    "startTime": "12:51 PM",
+    "endTime": "1:45 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "1:45 PM - 2:35 PM",
+    "day": "SATURDAY",
+    "startTime": "1:45 PM",
+    "endTime": "2:35 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "2:35 PM - 3:30 PM",
+    "day": "SATURDAY",
+    "startTime": "2:35 PM",
+    "endTime": "3:30 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "3:40 PM - 4:30 PM",
+    "day": "SATURDAY",
+    "startTime": "3:40 PM",
+    "endTime": "4:30 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+  {
+    "timeSlot": "4:30 PM - 5:20 PM",
+    "day": "SATURDAY",
+    "startTime": "4:30 PM",
+    "endTime": "5:20 PM",
+    "room": "NULL",
+    "course": "NULL",
+    "mode": "" 
+  },
+]
