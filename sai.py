@@ -17,11 +17,10 @@ with open('tt.json', 'r') as file:
 # Mapping course codes to course names
 course_mapping = {
     "22PH4102": "Applied Physics",
-    "22CS2228F": "Cross PlatForm ",
-    "22CEC3101A": "CIS advanced",
-    "22CEC3204":"Cloud Devops",
-    "22SDCS03A":"JFSD advanced",
-  # "":""
+    "22CS2228F": "Cross Platform",
+    "22CEC3101A": "CIS Advanced",
+    "22CEC3204": "Cloud DevOps",
+    "22SDCS03A": "JFSD Advanced",
     # Add more mappings as needed
 }
 
@@ -34,10 +33,11 @@ def send_notification(title, message):
     pb.push_note(title, message)
     print(f"Notification sent: {title}")
 
-# Check the timetable and send notifications
+# Get the current time and day
 now = datetime.now()
 current_day = now.strftime("%A").upper()
 
+# Check the timetable and send notifications
 for entry in data:
     class_day = entry['day']
     class_start_time = parse_time(entry['startTime'])
@@ -46,9 +46,7 @@ for entry in data:
 
     # Get the course name based on the course code
     course_code = entry['course']
-    course_name = course_mapping.get(course_code, "No Course")  # Defaults to "Unknown Course" if no match
-
-  
+    course_name = course_mapping.get(course_code, "No Course")  # Defaults to "No Course" if no match
 
     # Send upcoming class notification 5 minutes before class starts
     if current_day == class_day and time_before_class.time() <= now.time() < class_start_time.time():
