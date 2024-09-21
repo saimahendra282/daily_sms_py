@@ -9,7 +9,7 @@ on:
     - cron: '*/10 * * * *'  # Runs every 10 minutes for testing
 
 permissions:
-  contents: read  # Only read permissions needed
+  contents: write  # Allows committing changes
 
 jobs:
   run_py_file:
@@ -32,8 +32,19 @@ jobs:
         pip install pushbullet.py
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     
-    # Step 4: Run the Python script to send SMS notifications
+    # Step 4: Run the Python script to send SMS notifications and write to log.txt
     - name: Run Python script
       env:
         PUSHBULLET_API_KEY: ${{ secrets.PUSHBULLET_API_KEY }}  # Load the secret key from GitHub Secrets
       run: python sai.py  # Ensure this script is in the root directory
+
+    # Step 5: Commit log.txt and push it to the repository
+    - name: Commit and push log.txt
+      run: |
+        git config --global user.name "saimahendra282"
+        git config --global user.email "bejawadasaimahendra@gmail.com"
+        git add log.txt
+        git commit -m "Updated log.txt via GitHub Actions"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Provides authentication for pushing
