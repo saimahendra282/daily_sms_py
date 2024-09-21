@@ -1,6 +1,7 @@
  [
 
     {
+     
         "timeSlot": "7:10 AM - 8:00 AM",
         "day": "MONDAY",
         "startTime": "7:10 AM",
@@ -595,5 +596,5 @@
     "room": "NULL",
     "course": "NULL",
     "mode": "" 
-  },
+  }
 ]
